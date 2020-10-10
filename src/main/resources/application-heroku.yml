@@ -1,0 +1,27 @@
+server:
+  port: ${SERVER_PORT}
+  servlet:
+    context-path: ${SERVER_PATH}
+
+spring:
+  datasource:
+    platform: ${DB_PLATFORM}
+    driver-class-name: ${DB_DRIVER_CLASS}
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+  jpa:
+    database-platform: ${DB_JPA_PLATFORM}
+    hibernate:
+      ddl-auto: ${DB_JPA_DDL}
+  jackson:
+    time-zone:  ${TIME_ZONE}
+    date-format: ${DATE_FORMAT}
+    locale: ${LOCALE}
+    serialization:
+      fail-on-empty-beans: ${IS_FAIL}
+
+identity-provider:
+  resource-id: ${RESOURCE_ID}
+
+disable-security: ${IS_SECURITY}
