@@ -12,7 +12,6 @@ import java.io.IOException;
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
 class CorsConfig implements Filter {
-
     public CorsConfig() {
     }
 
