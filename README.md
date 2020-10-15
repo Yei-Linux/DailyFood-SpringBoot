@@ -1,72 +1,47 @@
-# RecipeFood-RestService
-Api Web Service made in Spring Boot . This API is about list of foods that can be cooked by User ,each foods is cooked in one dayEntity and each foodEntity has its own ingredients.
+<div align="center">
+  <a href="#">
+  	<img src="https://thumbs.dreamstime.com/b/pin-location-food-icon-logo-design-element-can-be-used-as-as-complement-to-95624691.jpg" alt="Logo project" width="80" height="80" />
+  </a>
+  <br>
+  <br>
+  <p>
+    <b>DailyFood-Spring</b>
+  </p>
+  <p>
+     <i>Api to send manage your own week list about your foods.</i>
+  </p>
+</div>
 
-BBDD:
---------
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/bdRecipeFood.PNG">
-</p>
+---
 
-URI Day:
---------
+**Content**
 
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/docday.PNG">
-</p>
+* [Features](##features)
+* [Install](##install)
+* [Usage](##usage)
+* [Maintainers](##maintainers)
 
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/dayEntities.PNG">
-</p>
+## Features ✨
+* Create a list of foods by week.
+* Has a list of history foods you create.
+* Nice search ingredients and foods.
+* Easy way to manage ingredients and size by food.
+* Continuously Maintained.
 
-URI Food:
---------
+## Install 🐙
+You can test it with maven:
+```
+mvn clean install
+```
 
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/docfood.PNG">
-</p>
+## Usage 💡
+This api you can use , only put variables enviroment (see application-heroku.yml), to manage foods you will prepare.
 
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/foods1.PNG">
-</p>
+## Maintainers 👷
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Yei-Linux"><img src="https://avatars1.githubusercontent.com/u/38733057?s=60&v=4" width="100px;" alt="Yei Linux"/><br /><sub><b>Yei Linux</b></sub></a><br /><a href="#" title="Code">💻</a></td>
+  </tr>
+</table>
 
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/foods2.PNG">
-</p>
-
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/foodsdetalle.PNG">
-</p>
-
-URI Ingredient:
---------
-
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/docingredient.PNG">
-</p>
-
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/ingredients1.PNG">
-</p>
-
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/ingredients2.PNG">
-</p>
-
-URI User:
---------
-
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/docuser.PNG">
-</p>
-
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/usuarios1.PNG">
-</p>
-
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/usuarios2.PNG">
-</p>
-
-<p align="center">
-	<img src="https://github.com/Yei-Linux/RecipeFood-SpringBoot/blob/master/imgs/usuariosdetalle.PNG">
-</p>
+---
